@@ -34,7 +34,7 @@ The code leaves room for natural optimizations — if you improve any of the imp
 The paper (TODO: Add link to paper) mentions three different DEGA implementations:
 
 1. **DEGA** – Simplest version used in the theoretical proofs (Section 2 of the paper).
-2. **DEGA_Limit** – **DEGA** constrained to $u(n)$ exploitation phases. We set a default $u(n) = \lambda \log n$.
+2. **DEGA_Limit** – **DEGA** constrained to $u(n, \lambda)$ exploitation phases. We set a default $u = \lambda \log n$.
 3. **DEGA_A** – A more robust version discussed in Section 5.1 (includes a flowchart).
 4. **DEGA_B** – An illustrative version utilizing algorithmic ideas from [1], more tailored toward _LeadingOnes_. Also discussed in Section 5.1.
 
